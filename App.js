@@ -1,12 +1,12 @@
-
+import React from 'react';
+import { SafeAreaView } from 'react-native';
 import MessengerApp from './MidAct01/MessengerApp';
-import CommentApp from './MidAct01/CommentApp';
+import ColorChangerApp from './MidAct01/CommentApp';
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
-       <MessengerApp/>
-    <CommentApp/>
-
+       <CommentApp/>
+    <MessengerApp/>
     </SafeAreaView>
   );
 }
