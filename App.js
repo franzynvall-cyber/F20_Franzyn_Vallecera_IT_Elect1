@@ -3,6 +3,7 @@ import { SafeAreaView } from 'react-native';
 import ColorChangerApp from './Activity_5/ColorChangerApp';
 import CounterApp from './Activity_5/CounterApp';
 import ColorChangerApp from './MidAct01/CommentApp';
+import MessengerApp from './MidAct01/MessengerApp';
 export default function App() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
